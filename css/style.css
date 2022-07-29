@@ -1,0 +1,517 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family: 'Mukta', sans-serif;
+}
+
+.main-header{
+    width: 100%;
+    border-bottom: 1px solid #e4e5e9;
+    margin-bottom: 10px;
+    
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.heading-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px ;
+    margin-bottom: 20px;
+    
+    
+    
+}
+
+.topbar-search{
+    border: none;
+
+}
+
+.topbar-search input{
+    padding: 6px 12px 6px 40px;
+    border: none;
+    font-size: 16px;
+    transition: .4s;
+}
+.topbar-search input:focus{
+    outline: none;
+    padding-left: 2px;
+    transition: .4s;
+    transform: scaleY(1.2);
+}
+
+.topbar-search i{
+    color: #8c92a0
+}
+
+.logo a{
+    padding: 0px 30px;
+    border: 3px solid #8c92a0;
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 220px;
+    
+
+}
+
+.icon{
+    
+    letter-spacing: 10px;
+    font-size: 20px;
+    color: #8c92a0
+}
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    display: none;
+}
+
+
+/* ********** navbar section Start  ******** */
+
+.navbar-section {
+    text-align: center;
+
+}
+
+.navbar-section li {
+    display: inline-block;
+    padding: 0px 0px 0px 40px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+
+}
+
+.navbar-section li a {
+    transition: .5s;
+}
+
+.navbar-section li a:hover {
+    background-color: #54fff1;
+   transition: .5s;
+   display: inline-block;
+   transform: scale(1.2);
+   color: rgb(15, 15, 15);
+   padding-left: 20px;
+   padding-right: 20px;
+   border-radius: 5px;
+   transform: translateY(-3);
+}
+
+.navbar-section li:first-child {
+    background-color: #54fff1;
+    padding: 5px 20px;
+    border-radius: 8px;
+    
+}
+
+
+/* ********** navbar section End ******** */
+
+
+
+
+
+/* ********** banner section start ******** */
+
+.banner{
+    width: 100%;
+    background-image: url('../img/pp1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    background-attachment: scroll;
+    padding: 120px 0px;
+    margin-top: 40px;
+}
+
+.banner-content{
+    display: flex;
+}
+.left{
+    flex-basis: 60%;
+}
+.right{
+    flex-basis: 40%;
+    margin-left: 198px;
+}
+
+.right h1{
+    font-size: 50px;
+    margin: 0px 0px 8px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.right p{
+    font-size: 20px;
+    line-height: 35px;
+    color: #4e5056;
+    letter-spacing: 3px;
+    margin: 20px 0px;
+}
+
+.right a{
+    font-size: 20px;
+    transform: translateY(-3);
+    background-color: darkred;
+    color: #e4e5e9;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: .5s;
+    letter-spacing: 2px;
+}
+.right a:hover{
+   background-color: rgb(9, 81, 81) ; 
+   transition: .5s;
+   display: inline-block;
+   transform: scale(1.2);
+}
+
+
+
+/* ********** banner section End ******** */
+
+
+
+/* ********** about section start ******** */
+
+.about-section{
+    width: 100%;
+    margin-top: 110px;
+    margin-bottom: 2rem;
+    
+}
+
+.about {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+
+.all {
+    display: flex;
+}
+
+.all i {
+    font-size: 19px;
+    font-weight: bold;
+    background-color: #7971ea;
+    margin-right: 20px;
+    border-radius: 100%;
+    color: white;
+    padding: 20px;
+}
+
+.all h1 {
+    font-weight: 500;
+}
+
+.free-shipping p {
+    margin-left: 95px;
+    font-weight: 300;
+}
+
+.free-review p{
+    margin-left: 90px;
+    font-weight: 300;
+}
+.free-support p{
+    margin-left: 80px;
+    font-weight: 300;
+}
+
+/* ********** about section End ******** */
+
+
+/* ......card section start here...  */
+
+.catagory{
+    width: 100%;
+    padding: 100px 0;
+}
+.card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 32px;
+    
+}
+
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.card-item {
+    position: relative;
+    overflow: hidden;
+    
+    
+    
+}
+.card-item img{
+    z-index: -1;
+    transition: .5s;
+}
+
+.overflow{
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.card-text {
+    z-index: 9999;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    color: white;
+    
+}
+
+.card-item:hover img{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+
+
+
+/* ......card section end here...  */
+
+
+/* ......carousel section start here...  */
+
+
+.carousel-section{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #f8f9fa!important;
+}
+.heading{
+
+    text-align: center;
+    
+
+}
+
+.line{
+    width: 50px;
+    height: 2px;
+    background-color: blueviolet;
+    margin: auto;
+}
+.contant{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 38px;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+
+
+
+/* ......carousel section end here...  */
+
+
+/* ......big sell section section star there...  */
+
+.big-section{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.content-section{
+    display: flex;
+    
+    
+}
+.leftt {
+    max-width: 100%;
+    height: auto;
+    
+    
+    
+}
+.rightt{
+    
+    text-align: center;
+    margin-top: 100px;
+    
+
+}
+.rightt h1 {
+    color: #7971ea;
+    margin-bottom: 11px;
+    text-align: center;
+    margin-left: 13rem;
+}
+.rightt .ii {
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    margin-left: 14rem;
+}
+.rightt .ii span  {
+    color: #7971ea;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.rightt p{
+    letter-spacing: 1px;
+    color: #8c92a0;
+    margin-left: 14rem;
+}
+
+.rightt a{
+    background-color: #54fff1;
+    
+    display: inline-block;
+    padding: 10px 20px;
+    transition: .5s;
+    border-radius: 8px;
+    margin-left: 13rem;
+    margin-top: 2rem;
+}
+
+.rightt a:hover{
+    transform: scale(1.2);
+    transition: .5s;
+    display: inline-block;
+    background-color: #7971ea;
+    color: white;
+}
+
+
+
+/* ......big sell section section end here...  */
+
+
+
+.main-footer{
+    width: 100%;
+    margin-top: 82px;
+    padding-top: 36px;
+    padding-bottom: 30pxpx;
+}
+
+.main-section{
+    display: flex;
+}
+.left-section{
+    flex-basis: 50%;
+}
+.center-section{
+    flex-basis: 25%;
+}
+.right-section{
+    flex-basis: 25%;
+}
+.nav h1{
+    font-size: 20px;
+    margin-bottom: 36px;
+    font-weight: 900;
+}
+
+.a-tag{
+   
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 48px;
+    font-size: 16px;
+    color: #4e5056;
+    line-height: 2.6;
+    
+    
+}
+.promo-item h1{
+    font-size: 20px;
+    margin-bottom: 36px;
+    font-weight: 900;
+    
+}
+
+.promo-item a{
+    font-size: 22px;
+}
+.promo-item p{
+    font-size: 22px;
+    color: #8c92a0;
+}
+/* ................... */
+
+.right-section{
+    margin-left: 36px;
+    /* position: relative; */
+}
+.right-section h1{
+    font-size: 20px;
+    margin-bottom: 36px;
+    font-weight: 900;
+}
+.right-section p{
+
+    letter-spacing: 1px;
+    margin-bottom: 9px;
+    color:#8c92a0;
+
+}
+.right-section p i{
+
+    color: #7971ea;
+    font-size: 20px;
+    
+}
+.right-section h4{
+    font-size: 26px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.inputt{
+    padding: 10px 62px 10px 0px;
+    /* border: none; */
+    font-size: 16px;
+    /* transition: .4s; */
+    display: inline-block;
+    
+}
+
+
+.inputtt input {
+    background-color: #54fff1;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 7px;
+    
+
+    
+}
+
+
+
+
+
+
